@@ -13,3 +13,13 @@
     transition: 0.3s ease-in-out;
     background-color: #eb0000;
 }
+header {
+    text-align: center;
+    padding: 0 0 100px;
+}
+header button {
+    color: white;
+    background-color: black;
+    padding: 10px 50px;
+    font-size: 1.5rem;
+}

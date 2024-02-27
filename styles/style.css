@@ -1,0 +1,15 @@
+.buttons button {
+    background-color: #515151;
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    min-width: 300px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.buttons button:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #eb0000;
+}

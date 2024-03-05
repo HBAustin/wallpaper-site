@@ -2,7 +2,7 @@
 
 .wallpapers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
 }
 .wallpaper {
@@ -18,17 +18,16 @@
     transform: scale(1.1);
 }
 body {
-    background-color: #292929;
-    color: white;
-
+    background-color: #c1c1c1;
 }
 header {
     text-align: center;
     font-size: auto;
     font-family: "Oswald", "Arial";
-    background-color: rgb(208, 208, 208);
+    background-color: white;
     color: black;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px #00000087
 }
 header h1 img {
     width: 100px;
@@ -41,34 +40,41 @@ header h1 img {
     left: 8px;
     height: 100px;
     width: 120px;
-    background-color: white;
+    background-color: #ff4141;
+    color: white;
     border: none;
     font-family: 'Oswald', 'Arial';
     font-size: 1.5rem;
     padding: 0px 30px;
-    box-shadow: 1px 2px 3px #181818;
+    box-shadow: 3px #181818;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 .back button:hover {
-    text-decoration: underline;
     cursor: pointer;
     font-size: 1.7rem;
+    background-color: #da3d3d;
+}
+.back button:active {
+    background-color: black;
 }
 header h1 img {
     height: 80px;
     width: auto;
     padding: 10px 0;
 }
+main .wallpaper {
+    border-radius: 5px;
+}
 
 @media (min-width: 1500px) {
     body {
-        background-color: black;
+        background-color: white;
     }
     .wallpapers {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        gap: 30px;
+        gap: 10px;
     }
     .wallpaper {
         overflow: hidden;
@@ -122,5 +128,8 @@ header h1 img {
     body {
         background-color: #121212;
         color: #ffffff;
+    }
+    header {
+        box-shadow: none;
     }
 }

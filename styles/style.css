@@ -1,3 +1,6 @@
+.buttons {                                                                                                                 
+    text-align: center;
+}
 .buttons button {
     background-color: #515151;
     color: white;
@@ -22,4 +25,15 @@ header button {
     background-color: black;
     padding: 10px 50px;
     font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: rebeccapurple;
+    }
+    .buttons button {
+        background-color: white;
+        color: black;
+        margin: 10px;
+    }
 }

@@ -126,7 +126,7 @@ main .wallpaper {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #121212;
+        background-color: black;
         color: #ffffff;
     }
     header {
